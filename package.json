@@ -1,0 +1,42 @@
+{
+  "name": "rooted_calendar_app",
+  "version": "1.0.0",
+  "description": "Microservice for calendar scheduling functionality for Rooted",
+  "main": "init.js",
+  "scripts": {
+    "test": "nodemon init.js",
+    "start": "node init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redroostertech/Rooted_Calendar.git"
+  },
+  "author": "Michael Westbrooks II",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redroostertech/Rooted_Calendar/issues"
+  },
+  "homepage": "https://github.com/redroostertech/Rooted_Calendar#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "engines": {
+    "node": "^10.x"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.5",
+    "async": "^3.2.0",
+    "cors": "^2.8.5",
+    "date-format": "^3.0.0",
+    "express": "^4.17.1",
+    "fcm-node": "^1.6.1",
+    "firebase": "^8.6.3",
+    "firebase-admin": "^9.9.0",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "promise": "^8.1.0",
+    "randomstring": "^1.2.1",
+    "request": "^2.88.2",
+    "underscore": "^1.13.1"
+  }
+}
